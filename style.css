@@ -1,0 +1,27 @@
+ul.navBar{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    height: 5em;
+    line-height: 5em;
+    background-color: rgb(39, 44, 79);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+ul.navBar li{
+    border-right: 1px solid rgb(51, 57, 104);
+    float: left;
+}
+
+ul.navBar a{
+    display: block;
+    padding: 0 28px;
+    color: aliceblue;
+    
+}
+
+ul.navBar a:hover,
+ul.navBar li.current a{
+    background: #4a67b6;
+}
